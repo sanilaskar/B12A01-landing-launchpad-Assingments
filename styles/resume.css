@@ -114,3 +114,40 @@ nav li a{
   height: 328px;
   border-radius: 48px;
 }
+/* users section */
+.users-stats-section {
+  background-color:rgba(78, 71, 255, 0.1);
+  margin: 92px 186px 185px 114px;
+  padding: 50px 80px;
+  text-align: center;
+  border-radius: 24px; 
+  max-width: 1140px;
+  height: 300px;
+  gap: 10px;
+}
+
+.users-stats-section h2 {
+  font-size: 38px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: rgba(37, 36, 50, 1);
+}
+.users-stat-box h3 {
+  font-size: 80px;
+  color: #4E47FF;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+
+.users-stat-box p {
+  font-size: 20px;
+  color: #000000;
+}
+
+.users-stats-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+  /* flex-wrap: wrap; */
+}
