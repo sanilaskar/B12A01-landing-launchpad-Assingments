@@ -96,6 +96,8 @@ nav li a{
     flex-wrap: wrap;
     gap: auto;
     padding: 116px 160px 116px 140px;
+    margin-left: 120px;
+    margin-right: 105px;
 
 }
 
@@ -129,39 +131,43 @@ nav li a{
 /* users section */
 .users-stats-section {
   background-color:rgba(78, 71, 255, 0.1);
-  margin: 92px 186px 185px 114px;
-  padding: 50px 80px;
+  margin-left: 265px;
+  margin-right: 250px;
+  padding: 50px 142px;
   text-align: center;
   border-radius: 24px; 
-  max-width: 1140px;
+  max-width: 1270px;
   height: 300px;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .users-stats-section h2 {
   font-size: 38px;
-  margin-bottom: 0px;
   font-weight: bold;
   color: rgba(37, 36, 50, 1);
+  gap: 40px;
+  /* padding-bottom: 10px; */
 }
 .users-stat-box h3 {
   font-size: 80px;
   color: #4E47FF;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom:0px;
   
 }
 
 .users-stat-box p {
   font-size: 20px;
   color: #000000;
+  margin-bottom: 20px;
 }
 
 .users-stats-container {
   display: flex;
   justify-content: space-around;
-  gap: 70px;
+  gap:50px;
   /* flex-wrap: wrap; */
+  padding-bottom:80px;
 }
 
 /* contact-section */
@@ -170,29 +176,37 @@ nav li a{
   justify-content: space-between;
   padding: 80px;
   background-color:#D6DDED;
+  margin-left: 165px;
+  margin-right: 150px;
+
 }
 
 .contact-left h1 {
-  font-size: 48px;
+  font-size: 97px;
   font-weight: bold;
-  color: #000;
+  color: #000000;
 }
 form {
   display: flex;
   flex-direction: column;
+  width: 500px;
+  /* min-height: 70px; */
+  /* max-width: 1270px; */
 }
 label {
   margin-top: 20px;
-  font-size: 14px;
-  color: #333;
+  /* padding: 20px 32px; */
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
 }
 input,
 textarea {
-  margin-top: 6px;
-  padding: 12px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  margin-top: 10px;
+  padding: 20px 32px;
+  font-size: 20px;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
   outline: none;
 }
 .touch-btn {
@@ -269,9 +283,11 @@ textarea {
 }
 /* focus-better-section */
 .focus-section {
-  background-color: #f6f9ff;
+  background-color: #ffffff;
   padding: 60px 20px;
   text-align: center;
+  margin-left: 265px;
+  margin-right: 250px;
 }
 .focus-content h2 {
   font-size: 28px;
