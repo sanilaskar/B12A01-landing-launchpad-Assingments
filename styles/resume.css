@@ -17,6 +17,15 @@
       background-color:#D6DDED;
 
 }
+/* shared hover */
+.cta-btn:hover {
+  background-color:yellow;
+}
+.cta-1-btn:hover{
+  background-color: #4E47FF;
+}
+
+
 .logo{
     font-size: 34px;
     font-weight: bolder;
@@ -186,7 +195,7 @@ textarea {
   border-radius: 6px;
   outline: none;
 }
-button {
+.touch-btn {
   margin-top: 24px;
   padding: 12px;
   background-color: #4f46e5;
@@ -225,7 +234,6 @@ button {
   font-weight: bold;
   margin-bottom: 50px;
 }
-/* .feedback-cards */
 .feedback-cards {
   display: flex;
   gap: 20px;
@@ -240,9 +248,6 @@ button {
   text-align: left;
 }
 
- /* .stars{ */
-    /* color: rgba(255, 184, 5, 1); */
- /* } */
  .reviewer {
   display: flex;
   align-items: center;
@@ -262,5 +267,36 @@ button {
   color:rgba(242, 237, 237, 1);
   font-size: 14px;
 }
+/* focus-better-section */
+.focus-section {
+  background-color: #f6f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.focus-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
-
+.focus-content p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.free-btn {
+  
+  background-color: #4E47FF;
+  color: #fff;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.focus-content img {
+  max-width: 100%;
+  border-radius: 48px;
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); */
+}
