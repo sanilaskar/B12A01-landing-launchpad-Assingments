@@ -168,7 +168,7 @@ nav li a{
   display: flex;
   justify-content: space-around;
   gap:50px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding-bottom:80px;
   margin-top: 0px;
 }
